@@ -1,1 +1,11 @@
-#define graph
+#import library
+import matplotlib.pyplot as plt
+import numpy as np
+
+#make equation
+x = np.arange(0,4*np.pi,0.1)  #start, stop, step
+y= np.sin(x)
+
+#plot
+plt.plot(x,y)
+plt.show
